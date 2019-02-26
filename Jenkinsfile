@@ -1,5 +1,7 @@
 pipeline {
-    agent any
+    agent {
+          label 'WIN'
+          }
     stages{
         
         stage('Git Clone or Pull'){
